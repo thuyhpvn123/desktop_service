@@ -1,0 +1,8 @@
+syntax = "proto3";
+package pos;
+
+option go_package = "/proto";
+
+message PosStakePool {
+    map<string,bytes> StakedAmount = 1;
+}
