@@ -1,9 +1,0 @@
-syntax = "proto3";
-package sync;
-option go_package = "/proto";
-
-
-message SyncAccoutStates {
-    map<string,bytes> StorageData = 1;
-    bool Finished = 2;
-}
